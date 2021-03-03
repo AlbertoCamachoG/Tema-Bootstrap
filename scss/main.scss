@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/*Formularios*/
+$input-border-width:7px;
+$input-border-color:rgb(18, 117, 163);
+$input-color:rgb(43, 21, 4);
+$input-placeholder-color:rgb(245, 104, 104);
+$input-bg:rgb(238, 233, 161);
+.col-form-label{
+    font-weight: bold;
+}
+/*colores*/
+$primary:rgb(79, 206, 199);
+$light:rgb(153, 242, 245);
+/*Fuente*/
+$font-family-sans-serif: 'Rubik', sans-serif;;
+/*botones*/
+$btn-font-family:'Stick', sans-serif;
+
+/*card*/
+$card-bg:rgb(228, 206, 206);
+$card-border-width:2px;
+$card-border-color:grey;
+/*modal*/
+$modal-header-padding:2rem;
+$modal-footer-padding:2rem;
+$modal-footer-margin-between: 1rem;
+$modal-content-border-color:rgb(139, 231, 235);
+$modal-content-bg:beige;
+$modal-content-border-width:0.5rem;
+
+/*dropdown*/
+$dropdown-bg:beige;
+$dropdown-padding-y:1rem;
+$dropdown-padding-x:2rem;
+$dropdown-divider-bg:black;
+
+/*navbar*/
+.nav-link {
+    &:hover{
+        background-color: blue;
+        
+    }
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
